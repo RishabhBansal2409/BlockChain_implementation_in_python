@@ -1,16 +1,16 @@
 # BlockChain implementation in python
 
-BlockChain is **public database where data (in the form of groups of transactions) is stored in a container called a block and these blocks are added to form an immutable chain (hence blockchain) with data added in the past**.BlockChain provides an **alternative** to individuals who believe that **today’s banking systems are a scam or subject to failure**.There are varied applications of it in the finance , insurance and  medical industry because of it's unique features.
+BlockChain is **public database where data (in the form of groups of transactions) is stored in a container called a block and these blocks are added to form an immutable chain (hence blockchain) with data added in the past**.BlockChain provides an **alternative** to individuals who believe that **today’s banking systems are a scam or subject to failure**.There are varied applications of it in the **finance , insurance and  medical industry** because of it's unique features.
 
-![](/images/BlockChain.png)
+![](/images/BlockChain.PNG)
 
-Features are as below :
+`Features are as below :`
 
 1.Data stored in blockchain is **immutable** and cannot be changed easily.  
 2.**Ensures transparency** as it is **decentralized** as well as an **open ledger**.  
 3.Removes requirement of third party authorisation , thereby helps in **fastening the process** as well as **reduction in costs**.  
 
-Through the notebook , I have implemented basic blockchain in python.Steps followed are :-
+Through the notebook , I have implemented basic blockchain in python.`Steps followed are :`
 
 1. Importing the required libraries such as **Hasher (for hash values) and Datetime (for timestamp).**
 2. Defining the **block structure**. A block comprises of index , timestamp , data , hash value of the previous block and hash value of the current block.
